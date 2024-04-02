@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Portafolio MM</title><link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css"><link rel="stylesheet" href="CSS/main.css"></head>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Portafolio MM</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css"><link rel="stylesheet" href="CSS/main.css"></head>
 <body>
     <!--Barra de Navegación-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -10,16 +10,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Presentación</a>
+                      <a class="nav-link" aria-current="page" href="#presentacion">Presentación</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Experiencia</a>
+                      <a class="nav-link" href="#informacion">Información Profesional</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Proyectos</a>
+                      <a class="nav-link" href="#proyectos">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Redes</a>
+                      <a class="nav-link" href="#redes">Redes</a>
                   </li>
               </ul>
           </div>
@@ -29,23 +29,145 @@
   <!--Foto y texto-->
     
 
-          <div class="container-fluid container-presentacion" id="presentacion">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="Imagenes/FotoPersonal.jpg">
-              </div>
-              <div class="col-md-6">
-                <div class="card bg-dark mt-5">
-                  <div class="card-body">
-                    <center><p>¡Hola! Soy Manuel Alejandro Martínez Cáceres, un apasionado informático de 26 años. Desde muy joven he estado inmerso en el mundo de la tecnología,
-                    tuve desde muy joven me acostumbre al uso de las computadoras y gracias al esfuerzo que he dado en esta vida estoy logrando labrarme un nombre en este mundillo.</p>
-                    </center> 
-                  </div> 
-                </div>  
-              </div>
-            </div>
+<div class="container-fluid container-presentacion" id="presentacion">
+  <h1 class="mt-5 text-center">Presentación</h1>
+  <div class="row">
+      <div class="col-md-2"></div>
+          <div class="col-md-4">
+              <img src="Imagenes/FotoPersonal.jpg">
+          </div>
+      <div class="col-md-4">
+          <div class="card bg-dark mt-5">
+            <div class="card-body">
+              <center><p>¡Hola! Soy Manuel Alejandro Martínez Cáceres, un apasionado informático de 26 años. Desde muy joven he estado inmerso en el mundo de la tecnología,
+              tuve desde muy joven me acostumbre al uso de las computadoras y gracias al esfuerzo que he dado en esta vida estoy logrando labrarme un nombre en este mundillo.</p>
+              </center> 
+            </div> 
+          </div>  
+      </div>   
+        <div class="col-md-2"></div>
+  </div>
+</div>
+            
+<!--Habilidades y experiencia-->    
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<div class="container-fluid container-informacion mt-5" id="informacion">
+  <h1 class="text-center" style="margin-top:150px">Información Profesional</h1>
+  <div class="row d-flex align-items-stretch">
+    <div class="col-md-12">
+      <div class="container text-center container-tabla">
+        <div class="row">
+          <div class="col-md-4 col-sm-12" style="margin-top: 20px;">
+            <ul class="list-group">
+              <li class="list-group-item active">Estudios</li>
+              <li class="list-group-item">Licenciatura en Ingeniería en informática (CEUTEC, Honduras 2017-2022)</li>
+
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12" style="margin-top: 20px;">
+            <ul class="list-group">
+              <li class="list-group-item active">Habilidades</li>
+              <li class="list-group-item">Unreal Engine y Unity</li>
+              <li class="list-group-item">Java, C++ y C# Orientado a los motores de videojuegos</li>
+              <li class="list-group-item">HTML, CSS y Javascript</li>
+              <li class="list-group-item">SQL</li>
+              <li class="list-group-item">Microsoft Office Suite</li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12" style="margin-top: 20px;">
+            <ul class="list-group">
+              <li class="list-group-item active">Idiomas</li>
+              <li class="list-group-item">Español (Nativo)</li>
+              <li class="list-group-item">Ingles (Intermedio)</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!--Proyectos-->
+<div class="container-fluid container-proyecto" style="margin-top: 100px;" id="proyectos"> 
+  <h1 class="text-center">Proyectos Trabajados</h1> 
+    <div class="row d-flex align-items-stretch">
+        <div class="col-md-12">
+          <p>Estos son algunos de los proyectos que se he desarrollado en mi experiencia laboral</p>
+          <p>Si quieres ver la demostración de estas experiencias en Realidad Virtual puedes dar click a la imagen</p>                    
+        </div>
+    </div>   
+</div>   
+
+<!--Carrusel de imagenes-->
+<div class="container-fluid container-proyectos">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://youtu.be/aewGknhVFSU" target="_blank">
+            <img src="Imagenes/Philips.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://youtu.be/2Db2DxmWUqI" target="_blank">
+            <img src="Imagenes/labifisca.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://youtu.be/upz1-e0SMsU" target="_blank">
+            <img src="Imagenes/reciclaje.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://youtu.be/ZLa7mqZki0s" target="_blank">
+            <img src="Imagenes/coinsa.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Redes-->
+<div  class="container-fluid container-redes" id="redes">
+  <h1 class="text-center" style="margin-top: 100px;">Redes</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="Imagenes/correo.png" onclick="enviarCorreo()" class="d-block w-100" alt="...">
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.linkedin.com/in/manuel-martinez-44994a125/" target="_blank">
+        <img src="Imagenes/linkedin.png" class="d-block w-100" alt="...">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://t.me/+50432916943" target="_blank">
+        <img src="Imagenes/telegram.png" class="d-block w-100" alt="...">
+      </a>
+    </div>
+  </div>
+</div>
+
+  <script>
+    function enviarCorreo(){
+    var destino = "man2019mc@hotmail.com";
+    var asunto = "¡Quiero contactar contigo!"
+
+    var enlaceCorreo = 'mailto:' + destino + '?subject=' + encodeURIComponent(asunto);
+
+    window.location.href = enlaceCorreo;
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
   </html>
