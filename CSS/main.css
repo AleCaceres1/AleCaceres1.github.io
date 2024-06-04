@@ -78,3 +78,47 @@ h1{
     font-size: 15px;
   }
 
+@media only screen and (max-width: 600px) {
+
+    navbar{
+        height: 200px;
+        width: 325px;
+    }
+
+    .container-presentacion img{ 
+        max-height: 100%;
+        max-width: 60%;
+        border-radius: 20%;
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+    
+    .container-presentacion p{
+        text-align: center;
+        margin-top: 20px; 
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        max-width: 75%;
+        max-height: 100%;
+    
+    }
+
+    footer {
+        text-align: center;
+        padding: 5px;
+        background-image: linear-gradient(to right top, #abbcd7, #99a7c0, #8792aa, #757e94, #646b7f); 
+        color: white;
+        margin-top: 50px;
+        height: 200px;
+        width: 325px;
+      }
+      
+      footer img{
+        height: 80px;
+      }
+    
+      footer p{
+        font-size: 15px;
+      }
+}
